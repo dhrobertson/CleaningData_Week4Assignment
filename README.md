@@ -16,9 +16,17 @@ A complete assignment includes:
 
 ##Data Source & Description
 
-**Description: ** http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+**Description:** http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-**Source: ** https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+**Source:** https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 
 ##Solution and Submitted Information
+
+File                     | Contents
+-------------------------|-----------------------
+run_analysis.R           | R script to download files, unzip, merge data, and create the two files
+human_act_mean_std.csv   | clean data file merged for individuals and activities. See CodeBook.md for formats
+human_act_average.csv    | average of clean data per individual and activity regardless of test or train
+CodeBook.md              | description of variables in each of the clean files
+README.md                | this file
